@@ -1,7 +1,7 @@
 package com.springsec.demo.web;
 
 import com.springsec.demo.entities.Task;
-import com.springsec.demo.services.TaskInterface;
+import com.springsec.demo.services.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,9 +16,9 @@ import java.util.List;
 @RestController
 public class TaskRestController {
     @Autowired
-    private TaskInterface taskInterface;
+    private TaskService taskInterface;
 
-    @GetMapping("/tasks")
+    @GetMapping("/tasksList")
     public List<Task> tasks()
     {
         return taskInterface.tasksList();

@@ -17,26 +17,26 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @EnableWebSecurity//To activate web security
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-//    @Autowired
-//    private UserDetailsService userDetailsService;
-//
-//    @Autowired
-//    private BCryptPasswordEncoder bCryptPasswordEncoder;
+    @Autowired
+    private UserDetailsService userDetailsService;//Authentication system based on service layer
+
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;//Hashing function to encode password in db
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        //auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder);
+        auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder);
 
-        auth.inMemoryAuthentication()
-                .withUser("admin").password("1234").roles("ADMIN","USER")
-                .and()
-                .withUser("student").password("123").roles("USER");
+//        auth.inMemoryAuthentication()
+//                .withUser("admin").password("1234").roles("ADMIN","USER")
+//                .and()
+//                .withUser("student").password("123").roles("USER");
 
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-//        http.csrf().disable();
+        http.csrf().disable();
 //        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);//To say to spring don't create httpSession
 
         http.formLogin();
