@@ -38,8 +38,8 @@ public class DemoApplication implements CommandLineRunner {
 		@Override
 		public void run (String...strings) throws Exception {
 
-			accountService.saveUser(new AppUser(null,"admin","1234",null));
-			accountService.saveUser(new AppUser(null,"user","12345",null));
+			accountService.saveUser(new AppUser("admin","1234",null));
+			accountService.saveUser(new AppUser("user","12345",null));
 			accountService.addRoleToUser(RoleTypes.ADMIN.toString(), "admin");
 			accountService.addRoleToUser(RoleTypes.USER.toString(), "user");
 
