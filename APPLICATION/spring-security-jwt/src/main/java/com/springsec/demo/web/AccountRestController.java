@@ -17,9 +17,26 @@ public class AccountRestController {
     private AccountService accountService;
 
     @PostMapping("/register")
-    public AppUser register(@RequestBody AppUser user)
+    public AppUser register(@RequestBody RegisterForm userForm)
     {
-        return accountService.saveUser(user);
+        //GET USER INFOS FROM REGISTERFORM CLASS
+
+        //Find user in db for checking
+        AppUser currentUser = accountService.findUserByUsername(userForm.getUsername());
+
+        if(!userForm.getPassword().equals(userForm.getConfirmPassword())) throw new RuntimeException("You must confirm the password");
+        if(currentUser != null) throw new RuntimeException("This user already exist!!!");
+
+        AppUser newUser = new AppUser();
+        newUser.setUsername(userForm.getUsername());
+        newUser.setPassword(userForm.getPassword());
+
+        //First save user in db
+        accountService.saveUser(newUser);
+        //And add him a role
+        accountService.addRoleToUser("USER",userForm.getUsername());
+
+        return newUser;
     }
 
 }

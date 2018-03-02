@@ -12,6 +12,7 @@ public interface AccountService {
 
     public AppUser saveUser(AppUser user);
     public AppRole saveRole(AppRole role);
+    public AppRole findRoleByName(String rolename);
     public void addRoleToUser(String rolename,String username);
     public AppUser findUserByUsername(String username);
     public Collection<AppUser> findAppUsers();

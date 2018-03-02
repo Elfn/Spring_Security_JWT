@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
  * Created by Elimane on Feb, 2018, at 05:37
@@ -37,13 +38,30 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.csrf().disable();
+//        http.csrf().disable();
+////        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);//To say to spring don't create httpSession
+//
+//        //Here we configure server in order to never use authentication by session but by token(STATELESS)
+//        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+//        //http.formLogin();
+//        http.authorizeRequests().antMatchers("/login/**","/register/**").permitAll();
+//        http.authorizeRequests().antMatchers(HttpMethod.POST,"/tasks/**").hasAuthority("ADMIN");
+//        http.authorizeRequests().anyRequest().authenticated();
+
+        http.csrf().disable()
 //        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);//To say to spring don't create httpSession
 
-        http.formLogin();
-        http.authorizeRequests().antMatchers("/login/**","/register/**").permitAll();
-        http.authorizeRequests().antMatchers(HttpMethod.POST,"/tasks/**").hasAuthority("ADMIN");
-        http.authorizeRequests().anyRequest().authenticated();
+        //Here we configure server in order to never use authentication by session but by token(STATELESS)
+        .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+        .and()
+        //http.formLogin();
+        .authorizeRequests().antMatchers("/login/**","/register/**").permitAll()
+        .antMatchers(HttpMethod.POST,"/tasks/**").hasAuthority("ADMIN")
+        .anyRequest().authenticated()
+        .and()
+         //That filter allows spring security to load user into the spring context
+        .addFilter(new JWTAuthenticationFilter(authenticationManager()));
+        //.addFilterBefore(new JWTAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
 
 
     }

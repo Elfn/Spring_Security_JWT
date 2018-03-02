@@ -38,10 +38,15 @@ public class AccountImpl implements AccountService {
     }
 
     @Override
+    public AppRole findRoleByName(String rolename) {
+        return roleRepository.findByRoleName(rolename);
+    }
+
+    @Override
     public void addRoleToUser(String rolename, String username) {
 
-        AppUser currentUser = findUserByUsername(username);
-        AppRole currentRole = roleRepository.findByRolename(rolename);
+        AppUser currentUser = userRepository.findByUsername(username);
+        AppRole currentRole = roleRepository.findByRoleName(rolename);
 
         currentUser.getAppRoles().add(currentRole);
 

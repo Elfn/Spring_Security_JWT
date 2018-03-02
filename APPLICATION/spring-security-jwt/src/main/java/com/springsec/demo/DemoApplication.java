@@ -38,10 +38,21 @@ public class DemoApplication implements CommandLineRunner {
 		@Override
 		public void run (String...strings) throws Exception {
 
+			String adminRoleName = RoleTypes.ADMIN.toString();
+			String userRoleName = RoleTypes.USER.toString();
+
+			accountService.saveRole(new AppRole(null,userRoleName));
+			accountService.saveRole(new AppRole(null,adminRoleName));
 			accountService.saveUser(new AppUser("admin","1234",null));
 			accountService.saveUser(new AppUser("user","12345",null));
-			accountService.addRoleToUser(RoleTypes.ADMIN.toString(), "admin");
-			accountService.addRoleToUser(RoleTypes.USER.toString(), "user");
+
+			AppRole admin = accountService.findRoleByName(adminRoleName);
+			AppRole user = accountService.findRoleByName(userRoleName);
+
+
+			accountService.addRoleToUser(admin.getRoleName(), "admin");
+			accountService.addRoleToUser(user.getRoleName(), "user");
+
 
 
 			Stream.of("Task1", "Task2", "Task3", "Task4").forEach(task -> {

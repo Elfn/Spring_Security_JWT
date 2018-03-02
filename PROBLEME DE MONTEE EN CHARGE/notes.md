@@ -1,17 +1,27 @@
-## CACHE MEMOIRE PARTAGÉ (SHARED CACHE MEMORY )
+##															SPRING BATCH
 
-=> * IS a type of server charged to save sessions IDs in order to make any server 
-instance able to respond to clients requests
+IT IS THE LEADING BATCH FRAMEWORK ON THE JVM
 
-##SPOF(SINGLE POINT OF FAILURE)
-=> * IN the concern of avoid spof we must alternate shared cache memory by distributed cache
+##  SPRING BATCH PROVIDES:
+1. JOB FLOW STATE MACHINE
 
-##DISTRIBUTED CACHE
+JOB => Colletion of independant processing steps
 
-=> * ALLOWS to start off again all sessions ids in severals and linked 
-Shared Cache Memory(distributed cache) to prevent spof due to the fact to have only one 
-Shared Cache Memory, it works with fault tolerance
+2. TRANSACTION HANDLING
 
-##STICKY SESSIONS
-=> IS the fact to configure a clever load balancer which can redirect a request to the convenient 
-server instance, except that it doesnt work with fault tolerance
+To put several records into many transaction, and do a rollback in case of error
+
+3. DECLARATIVE I/O
+
+Allows developers to be focus on business logic development while spring batch
+handle read and write process
+
+4. ROBUST ERROR HANDLING
+
+5. SCALABILITY OPTIONS 
+
+The ability to scale accross multiple JVM
+
+6. BATTLE TESTED
+
+7. BUILT ON SPRING

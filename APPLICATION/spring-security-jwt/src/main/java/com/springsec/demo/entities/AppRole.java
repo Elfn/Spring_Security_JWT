@@ -17,5 +17,5 @@ public class AppRole {
     private  Long id;
 
 
-    private String rolename;
+    private String roleName;
 }

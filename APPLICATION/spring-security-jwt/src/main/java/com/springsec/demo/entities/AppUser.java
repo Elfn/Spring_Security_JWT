@@ -53,6 +53,7 @@ public class AppUser {
     }
 
     @JsonIgnore//Marker annotation that indicates that the annotated method or field is to be ignored by introspection-based serialization and deserialization functionality
+    //Here we do ignore that field during object deserialization to the side of the client
     public String getPassword() {
         return password;
     }
