@@ -18,13 +18,13 @@ public class TaskRestController {
     @Autowired
     private TaskService taskInterface;
 
-    @GetMapping("/tasksList")
+    @GetMapping("/tasks")
     public List<Task> tasks()
     {
         return taskInterface.tasksList();
     }
 
-    @PostMapping("/addTask")
+    @PostMapping("/tasks")
     //@RequestBody allows to put task object in the request content
     public Task createTask(@RequestBody  Task task)
     {

@@ -60,8 +60,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         .anyRequest().authenticated()
         .and()
          //That filter allows spring security to load user into the spring context
-        .addFilter(new JWTAuthenticationFilter(authenticationManager()));
-        //.addFilterBefore(new JWTAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
+        .addFilter(new JWTAuthenticationFilter(authenticationManager()))
+        .addFilterBefore(new JWTAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
 
 
     }

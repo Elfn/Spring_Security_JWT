@@ -43,15 +43,17 @@ public class DemoApplication implements CommandLineRunner {
 
 			accountService.saveRole(new AppRole(null,userRoleName));
 			accountService.saveRole(new AppRole(null,adminRoleName));
-			accountService.saveUser(new AppUser("admin","1234",null));
-			accountService.saveUser(new AppUser("user","12345",null));
+			accountService.saveUser(new AppUser("admin","1234"));
+			accountService.saveUser(new AppUser("user","12345"));
 
-			AppRole admin = accountService.findRoleByName(adminRoleName);
-			AppRole user = accountService.findRoleByName(userRoleName);
+//			AppRole admin = accountService.findRoleByName(adminRoleName);
+//			AppRole user = accountService.findRoleByName(userRoleName);
 
+			//System.out.println("ROLES =>"+admin.getRoleName());
 
-			accountService.addRoleToUser(admin.getRoleName(), "admin");
-			accountService.addRoleToUser(user.getRoleName(), "user");
+			accountService.addRoleToUser(adminRoleName, "admin");
+			accountService.addRoleToUser(userRoleName, "admin");
+
 
 
 
@@ -64,7 +66,7 @@ public class DemoApplication implements CommandLineRunner {
 			});
 
 			accountService.findAppUsers().stream().forEach(appUser -> {
-				System.out.println(appUser.getUsername()+" "+appUser.getPassword());
+				System.out.println(appUser.getUsername()+" "+appUser.getPassword()+" "+appUser.getAppRoles());
 			});
 		}
 	}

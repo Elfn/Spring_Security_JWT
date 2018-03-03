@@ -50,6 +50,8 @@ public class AccountImpl implements AccountService {
 
         currentUser.getAppRoles().add(currentRole);
 
+        //saveUser(currentUser);
+
     }
 
     @Override

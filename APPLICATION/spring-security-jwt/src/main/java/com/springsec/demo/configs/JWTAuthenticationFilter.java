@@ -42,8 +42,9 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
         } catch (IOException e) {
             throw  new RuntimeException(e);
         }
-        System.out.println("Username: "+user.getUsername());
-        System.out.println("Password: "+user.getPassword());
+//        System.out.println("Username: "+user.getUsername());
+//        System.out.println("Password: "+user.getPassword());
+//        System.out.println("Roles: "+user.getAppRoles());
 
         return authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
                     user.getUsername(),
@@ -63,8 +64,17 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
         //Here we are generating json web token
         String jwtToken = Jwts.builder().setSubject(springUser.getUsername())
                 .setExpiration(new Date(System.currentTimeMillis()+SecurityConstants.EXPIRATION_TIME))
+
+                //HS256 IS A SYMETRIC ALGORITHM with only one (secret)
+                // key that is shared between the two parties.
+                // Since the same key is used both to generate the signature
+                // and to validate it
                 .signWith(SignatureAlgorithm.HS256,SecurityConstants.SECRET)
-                .claim("Roles",springUser.getAuthorities()).compact();
+
+                .claim("roles",springUser.getAuthorities())
+
+                //COMPACT IS TO ENCODE THE TOKEN
+                .compact();
 
         //here we are sending response+jwt to the client in the response's header
         response.addHeader(SecurityConstants.HEADER_STRING,SecurityConstants.TOKEN_PREFIX+jwtToken);
