@@ -38,15 +38,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-//        http.csrf().disable();
-////        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);//To say to spring don't create httpSession
-//
-//        //Here we configure server in order to never use authentication by session but by token(STATELESS)
-//        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-//        //http.formLogin();
-//        http.authorizeRequests().antMatchers("/login/**","/register/**").permitAll();
-//        http.authorizeRequests().antMatchers(HttpMethod.POST,"/tasks/**").hasAuthority("ADMIN");
-//        http.authorizeRequests().anyRequest().authenticated();
+
 
         http.csrf().disable()
 //        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);//To say to spring don't create httpSession
