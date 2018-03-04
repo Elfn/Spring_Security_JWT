@@ -16,75 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JWTAuthorizationFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JWTAuthorizationFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/JWTAuthorizationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-320">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="218">
+              <caret line="32" column="121" lean-forward="false" selection-start-line="32" selection-start-column="121" selection-end-line="32" selection-end-column="121" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3490">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1520052774100" expanded="true" signature="64308:64325" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64308:64343" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64308:64356" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64308:64371" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64406:67014" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64419:66999" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64473:64768" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64492:64753" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64555:64733" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64595:64699" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64616:64677" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64818:65127" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64837:65112" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64914:65092" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64954:65058" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="64975:65036" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65178:65504" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65197:65489" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65291:65469" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65331:65435" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65352:65413" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65547:65853" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65566:65838" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65640:65818" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65680:65784" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65701:65762" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65904:66265" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="65923:66250" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66013:66230" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66053:66196" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66074:66174" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66300:66606" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66319:66591" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66393:66571" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66433:66537" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66454:66515" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66658:66985" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66677:66970" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66772:66950" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66812:66916" ph="..." />
-                <marker date="1520052774100" expanded="true" signature="66833:66894" ph="..." />
               </folding>
             </state>
           </provider>
@@ -100,14 +48,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JWTAuthenticationFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/JWTAuthenticationFilter.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="54" column="62" lean-forward="false" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,37 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="54" column="64" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="54" selection-end-column="64" />
+            <state relative-caret-position="326">
+              <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -178,6 +128,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>User</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
@@ -205,15 +160,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/web/AccountRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/SecurityConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/entities/AppUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/JWTAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/services/UserDetailsImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/web/TaskRestController.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/JWTAuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/JWTAuthorizationFilter.java" />
       </list>
     </option>
   </component>
@@ -497,12 +452,12 @@
       <workItem from="1519701414580" duration="7000" />
       <workItem from="1519701452371" duration="4343000" />
       <workItem from="1519936663900" duration="17670000" />
-      <workItem from="1520047040633" duration="1340000" />
+      <workItem from="1520047040633" duration="4463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34175000" />
+    <option name="totallyTimeSpent" value="37298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -515,12 +470,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07089552" sideWeight="0.5171674" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3631841" sideWeight="0.52288985" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07089552" sideWeight="0.4828326" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3631841" sideWeight="0.47711015" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.4935065" order="0" side_tool="false" content_ui="combo" />
@@ -581,9 +536,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -591,11 +544,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -672,9 +621,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -682,11 +629,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/TaskImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -857,14 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,90 +838,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="54" column="64" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="54" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/web/TaskRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3490">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520052774100" expanded="true" signature="64308:64325" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64308:64343" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64308:64356" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64308:64371" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64406:67014" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64419:66999" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64473:64768" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64492:64753" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64555:64733" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64595:64699" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64616:64677" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64818:65127" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64837:65112" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64914:65092" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64954:65058" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="64975:65036" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65178:65504" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65197:65489" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65291:65469" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65331:65435" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65352:65413" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65547:65853" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65566:65838" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65640:65818" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65680:65784" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65701:65762" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65904:66265" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="65923:66250" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66013:66230" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66053:66196" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66074:66174" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66300:66606" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66319:66591" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66393:66571" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66433:66537" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66454:66515" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66658:66985" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66677:66970" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66772:66950" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66812:66916" ph="..." />
-            <marker date="1520052774100" expanded="true" signature="66833:66894" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59098:59115" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59098:59133" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59098:59146" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59098:59161" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59196:61804" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59209:61789" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59263:59558" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59282:59543" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59345:59523" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59385:59489" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59406:59467" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59608:59917" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59627:59902" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59704:59882" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59744:59848" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59765:59826" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59968:60294" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="59987:60279" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60081:60259" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60121:60225" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60142:60203" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60337:60643" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60356:60628" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60430:60608" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60470:60574" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60491:60552" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60694:61055" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60713:61040" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60803:61020" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60843:60986" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="60864:60964" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61090:61396" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61109:61381" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61183:61361" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61223:61327" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61244:61305" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61448:61775" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61467:61760" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61562:61740" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61602:61706" ph="..." />
+            <marker date="1520127546802" expanded="true" signature="61623:61684" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1017,16 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/JWTAuthorizationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/SecurityConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1035,11 +914,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/web/TaskRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/services/AccountImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="54" column="62" lean-forward="false" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springsec/demo/configs/JWTAuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="32" column="121" lean-forward="false" selection-start-line="32" selection-start-column="121" selection-end-line="32" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

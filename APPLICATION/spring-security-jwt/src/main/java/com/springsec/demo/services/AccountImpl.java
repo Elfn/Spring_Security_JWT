@@ -4,6 +4,7 @@ import com.springsec.demo.dao.RoleRepository;
 import com.springsec.demo.dao.UserRepository;
 import com.springsec.demo.entities.AppRole;
 import com.springsec.demo.entities.AppUser;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -14,6 +15,7 @@ import java.util.Collection;
 /**
  * Created by Elimane on Feb, 2018, at 23:06
  */
+@Slf4j
 @Service
 @Transactional//To say that each method of this class is a transaction with database
 public class AccountImpl implements AccountService {
@@ -47,6 +49,20 @@ public class AccountImpl implements AccountService {
 
         AppUser currentUser = userRepository.findByUsername(username);
         AppRole currentRole = roleRepository.findByRoleName(rolename);
+
+        for (AppRole role: currentUser.getAppRoles()) {
+
+            if(role.getRoleName() == currentRole.getRoleName())
+            {
+                log.debug("User is already admin!");
+                System.out.println("User is already admin!");
+                currentUser.getAppRoles().add(null);
+
+                //Here if there is already admin role we get out of addRoleToUser method
+                return;
+            }
+
+        }
 
         currentUser.getAppRoles().add(currentRole);
 

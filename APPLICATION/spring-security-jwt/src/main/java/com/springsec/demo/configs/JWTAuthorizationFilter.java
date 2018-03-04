@@ -42,7 +42,7 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
         String jwtPrefix = request.getHeader(SecurityConstants.HEADER_STRING);
 
         //Here we are checking request
-        if(jwtPrefix == null || !jwtPrefix.equals(SecurityConstants.TOKEN_PREFIX))
+        if(jwtPrefix == null || !jwtPrefix.startsWith(SecurityConstants.TOKEN_PREFIX))
         {
                 //Means That if there is no prefix or prefix is equal to "Bearer "
                 //so we can consider that request as an authorization request with in its header

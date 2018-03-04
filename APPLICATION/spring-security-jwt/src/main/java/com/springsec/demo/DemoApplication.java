@@ -52,6 +52,10 @@ public class DemoApplication implements CommandLineRunner {
 			//System.out.println("ROLES =>"+admin.getRoleName());
 
 			accountService.addRoleToUser(adminRoleName, "admin");
+
+			//To check if there is already admin role assigned to user
+			//accountService.addRoleToUser(adminRoleName, "admin");
+
 			accountService.addRoleToUser(userRoleName, "admin");
 
 
