@@ -1,3 +1,18 @@
-<p>
-  tasks works!
-</p>
+<div class="container">
+  <h2>TASKS</h2>
+  <!-- <ul class="list-group" *ngFor="let task of tasks" >
+    <li class="list-group-item">{{task.taskName}}</li>
+    <!-- <li class="list-group-item">Second item</li>
+    <li class="list-group-item">Third item</li> -->
+  <!-- </ul> --> 
+  <table class="table table-striped">
+    <tr>
+      <th>ID</th><th>Task Name</th>
+    </tr>
+    <tr *ngFor="let task of tasks">
+      <td>{{task.id}}</td>
+      <td>{{task.taskName}}</td>
+      
+    </tr>
+  </table>
+</div>

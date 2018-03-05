@@ -1,6 +1,6 @@
 <p></p>
 <div class="container">
-  <button routerLink="/login" class="btn btn-default">Login</button>
+  <button routerLink="/login" class="btn btn-default" (click)="onLogout()"> {{auth.checkLogin()? 'Logout' : 'Login'}}</button>
   <button routerLink="/tasks" class="btn btn-default">Tasks</button>  
 </div>
 <p></p>
