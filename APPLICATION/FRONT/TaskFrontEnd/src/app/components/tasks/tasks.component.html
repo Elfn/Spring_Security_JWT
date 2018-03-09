@@ -1,5 +1,8 @@
 <div class="container">
   <h2>TASKS</h2>
+  <p></p>
+  <button class="btn btn-danger" (click)="onNewtask()" *ngIf="isAdmin()" >New Task</button>
+  <p></p>
   <!-- <ul class="list-group" *ngFor="let task of tasks" >
     <li class="list-group-item">{{task.taskName}}</li>
     <!-- <li class="list-group-item">Second item</li>

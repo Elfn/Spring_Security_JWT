@@ -44,7 +44,7 @@ public class DemoApplication implements CommandLineRunner {
 			accountService.saveRole(new AppRole(null,userRoleName));
 			accountService.saveRole(new AppRole(null,adminRoleName));
 			accountService.saveUser(new AppUser("admin","1234"));
-			accountService.saveUser(new AppUser("user","12345"));
+			accountService.saveUser(new AppUser("user","1234"));
 
 //			AppRole admin = accountService.findRoleByName(adminRoleName);
 //			AppRole user = accountService.findRoleByName(userRoleName);
@@ -57,6 +57,7 @@ public class DemoApplication implements CommandLineRunner {
 			//accountService.addRoleToUser(adminRoleName, "admin");
 
 			accountService.addRoleToUser(userRoleName, "admin");
+			accountService.addRoleToUser(userRoleName, "user");
 
 
 

@@ -23,4 +23,13 @@ export class TasksComponent implements OnInit {
     });
   }
 
+  onNewtask(){
+    this.router.navigateByUrl("/new-task");
+  }
+
+  isAdmin()
+  {
+   this.auth.isAdmin();
+  }
+
 }
